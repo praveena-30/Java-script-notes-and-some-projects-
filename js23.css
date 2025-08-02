@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(212, 187, 187);
+}
+
+.entaire{
+    border: 2px solid black;
+}
+.main {
+    border: 2px solid black;
+    padding: 1px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px rgba(0.5, 0.5, 0.5, 0.5);
+    background-color: rgb(191, 212, 212);
+    
+}
+
+
+head{
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 238, 2);
+}
+.bodychild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-r{
+    width:250;
+
+}
+.body{
+    background-color: rgb(28, 236, 70);
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+    animation: colorChange 5s infinite;
+}
+@keyframes colorChange {
+    0% {background-color: antiquewhite;}
+    25% {background-color: rgb(255, 150, 14);}
+    50% {background-color: rgb(15, 217, 113);}
+    75%  { background-color: pink; }
+    100% {background-color: rgb(255, 127, 127);}
+}

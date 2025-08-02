@@ -1,0 +1,47 @@
+.head{
+    border: 3px solid black;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
+    margin: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.btn{
+    width: 200px;
+    height: 100px;
+}
+.output{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px ;
+
+}
+.outputchild{
+    width:300px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entaire {
+    border: 2px solid black;
+    width: 1000px;
+    /* Add these properties for centering */
+    margin: 0 auto; /* Centers horizontally */
+    position: absolute; /* For vertical centering */
+    top: 50%; /* Move down by 50% of viewport height */
+    left: 50%; /* Move right by 50% of viewport width */
+    transform: translate(-50%, -50%); /* Adjust for element's own size */
+    /* Keep your existing properties */
+    align-items: center;
+}
